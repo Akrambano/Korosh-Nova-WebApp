@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "purpose": "GitHub merge map for Secret Room assets. Add new image files here and reference them by path; do not embed images in app.js.",
+  "future_update": {
+    "steps": [
+      "Upload new images under assets/secret_room/ or another assets subfolder.",
+      "Add or replace only the matching manifest entry.",
+      "Commit/push the asset files and manifest; app logic does not need rewriting."
+    ]
+  },
+  "slots": {
+    "family_photo": "secret_room/family_selected.jpg",
+    "album_memory_1": "secret_room/family_selected.jpg",
+    "album_memory_2": "secret_room/portrait_mother.png",
+    "album_memory_3": "secret_room/portrait_father.png",
+    "chest_gifts": [
+      "secret_room/chest_zohreh.png",
+      "secret_room/chest_mother.png",
+      "secret_room/chest_hosein.png",
+      "secret_room/chest_zeynab.png",
+      "secret_room/chest_father.png",
+      "secret_room/chest_family.png"
+    ]
+  }
+}
