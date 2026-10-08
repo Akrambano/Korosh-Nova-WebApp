@@ -1,14 +1,1 @@
-{
-  "name": "کوروش نوا",
-  "short_name": "کوروش نوا",
-  "description": "خانه‌ی دیجیتال خانوادگی برای صداها، تصویرها، خاطره‌ها و لحظه‌ها.",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#03050e",
-  "theme_color": "#03050e",
-  "dir": "rtl",
-  "lang": "fa",
-  "icons": [
-    {"src":"assets/branding/korosh_nova_app_icon.png","sizes":"1024x1024","type":"image/png","purpose":"any maskable"}
-  ]
-}
+{"name":"کوروش نوا","short_name":"کوروش نوا","start_url":"./","display":"standalone","dir":"rtl","lang":"fa","background_color":"#030611","theme_color":"#050817","icons":[]}

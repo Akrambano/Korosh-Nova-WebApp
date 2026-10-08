@@ -1,0 +1,202 @@
+{
+  "power_on": [
+    {
+      "id": "power_on_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "power_on_1.wav",
+      "text": "نوا بیدار شد. خوش آمدید."
+    },
+    {
+      "id": "power_on_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "power_on_2.wav",
+      "text": "کوروش نوا بیدار شد. آماده‌ام."
+    },
+    {
+      "id": "power_on_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "power_on_3.wav",
+      "text": "نوا روشن شد. صدای خانه دوباره زنده است."
+    }
+  ],
+  "power_off": [
+    {
+      "id": "power_off_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "power_off_1.wav",
+      "text": "نوا آرام گرفت. تا دیدار بعد."
+    },
+    {
+      "id": "power_off_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "power_off_2.wav",
+      "text": "کوروش نوا خاموش شد."
+    },
+    {
+      "id": "power_off_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "power_off_3.wav",
+      "text": "نوا به خواب رفت. شب آرام."
+    }
+  ],
+  "usb_connect": [
+    {
+      "id": "usb_connect_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "usb_connect_1.wav",
+      "text": "گنجینه نوا وصل شد. موسیقی آماده است."
+    },
+    {
+      "id": "usb_connect_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "usb_connect_2.wav",
+      "text": "فلش موسیقی شناسایی شد. نوا آماده پخش است."
+    },
+    {
+      "id": "usb_connect_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "usb_connect_3.wav",
+      "text": "اتصال USB برقرار شد. بگذارید صدا زنده شود."
+    }
+  ],
+  "usb_disconnect": [
+    {
+      "id": "usb_disconnect_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "usb_disconnect_1.wav",
+      "text": "USB جدا شد. گنجینه نوا همچنان آماده است."
+    },
+    {
+      "id": "usb_disconnect_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "usb_disconnect_2.wav",
+      "text": "اتصال فلش قطع شد."
+    },
+    {
+      "id": "usb_disconnect_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "usb_disconnect_3.wav",
+      "text": "فلش از نوا جدا شد."
+    }
+  ],
+  "bt_connect": [
+    {
+      "id": "bt_connect_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "bt_connect_1.wav",
+      "text": "بلوتوث نوا وصل شد. صدایتان را می‌شنوم."
+    },
+    {
+      "id": "bt_connect_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "bt_connect_2.wav",
+      "text": "پیوند بلوتوث برقرار شد. نوا آماده است."
+    },
+    {
+      "id": "bt_connect_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "bt_connect_3.wav",
+      "text": "بلوتوث متصل شد. ارتباط کامل است."
+    }
+  ],
+  "bt_disconnect": [
+    {
+      "id": "bt_disconnect_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "bt_disconnect_1.wav",
+      "text": "بلوتوث نوا قطع شد."
+    },
+    {
+      "id": "bt_disconnect_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "bt_disconnect_2.wav",
+      "text": "پیوند بلوتوث پایان یافت."
+    },
+    {
+      "id": "bt_disconnect_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "bt_disconnect_3.wav",
+      "text": "بلوتوث جدا شد. هر وقت خواستید برمی‌گردم."
+    }
+  ],
+  "wifi_connect": [
+    {
+      "id": "wifi_connect_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "wifi_connect_1.wav",
+      "text": "Wi‑Fi نوا وصل شد. ارتباط پایدار است."
+    },
+    {
+      "id": "wifi_connect_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "wifi_connect_2.wav",
+      "text": "پیوند Wi‑Fi برقرار شد. نوا آنلاین است."
+    },
+    {
+      "id": "wifi_connect_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "wifi_connect_3.wav",
+      "text": "شبکه نوا متصل شد. ارتباط کامل برقرار است."
+    }
+  ],
+  "wifi_disconnect": [
+    {
+      "id": "wifi_disconnect_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "wifi_disconnect_1.wav",
+      "text": "Wi‑Fi نوا قطع شد."
+    },
+    {
+      "id": "wifi_disconnect_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "wifi_disconnect_2.wav",
+      "text": "پیوند شبکه پایان یافت."
+    },
+    {
+      "id": "wifi_disconnect_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "wifi_disconnect_3.wav",
+      "text": "ارتباط Wi‑Fi قطع شد. نوا منتظر بازگشت شماست."
+    }
+  ],
+  "ai_online": [
+    {
+      "id": "ai_online_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "ai_online_1.wav",
+      "text": "نورا آنلاین شد. من اینجا هستم."
+    },
+    {
+      "id": "ai_online_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "ai_online_2.wav",
+      "text": "هوش نوا آنلاین است. آماده‌ام."
+    },
+    {
+      "id": "ai_online_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "ai_online_3.wav",
+      "text": "نورا بیدار و آنلاین است. بگویید چه می‌خواهید."
+    }
+  ],
+  "ai_offline": [
+    {
+      "id": "ai_offline_1",
+      "name": "صدای پیش‌فرض 1",
+      "file": "ai_offline_1.wav",
+      "text": "نورا آفلاین شد."
+    },
+    {
+      "id": "ai_offline_2",
+      "name": "صدای پیش‌فرض 2",
+      "file": "ai_offline_2.wav",
+      "text": "هوش نوا به حالت آفلاین رفت."
+    },
+    {
+      "id": "ai_offline_3",
+      "name": "صدای پیش‌فرض 3",
+      "file": "ai_offline_3.wav",
+      "text": "نورا فعلاً آفلاین است؛ اما نوا هنوز کنار شماست."
+    }
+  ]
+}

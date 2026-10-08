@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#102c67"/><stop offset=".45" stop-color="#7b8fd4"/><stop offset=".72" stop-color="#e7c7d9"/><stop offset="1" stop-color="#7aa88d"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#fff" stop-opacity=".98"/><stop offset=".25" stop-color="#fff5c7" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#4f9a72"/><stop offset="1" stop-color="#123f35"/></linearGradient>
+ <linearGradient id="path" x2="0" y2="1"><stop stop-color="#e9d7bd"/><stop offset="1" stop-color="#9d775f"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#7ff5ed"/><stop offset="1" stop-color="#2c7097"/></linearGradient>
+ <filter id="blur20"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff4b2"/><stop offset=".3" stop-color="#d6a84f"/><stop offset=".65" stop-color="#fff1a1"/><stop offset="1" stop-color="#9b6428"/></linearGradient>
+</defs>
+<rect width="1080" height="1920" fill="url(#sky)"/>
+<circle cx="540" cy="530" r="360" fill="url(#sun)" filter="url(#blur20)"/>
+<circle cx="540" cy="500" r="130" fill="#fff8d0" opacity=".72"/>
+<!-- distant trees -->
+<g opacity=".72" fill="#2c7659">
+ <path d="M0 1120Q80 830 170 1120T330 1120V1510H0Z"/>
+ <path d="M780 1120Q860 820 950 1120T1080 1120V1510H780Z"/>
+</g>
+<g fill="#1c5d48">
+ <path d="M80 1180V820l55-120 55 120v360zM220 1200V900l48-100 48 100v300z"/>
+ <path d="M830 1200V860l55-120 55 120v340zM970 1190V900l45-95 45 95v290z"/>
+</g>
+<!-- garden hills -->
+<path d="M0 1250Q170 1050 350 1230T690 1210T1080 1170V1920H0Z" fill="url(#hill)"/>
+<path d="M0 1430Q210 1240 390 1400T760 1370T1080 1330V1920H0Z" fill="#1e604e" opacity=".8"/>
+<!-- river -->
+<path d="M0 1560Q230 1490 420 1600T720 1640T1080 1510V1920H0Z" fill="url(#water)" opacity=".78"/>
+<path d="M0 1650Q250 1560 460 1690T780 1710T1080 1620" fill="none" stroke="#d9ffff" stroke-opacity=".55" stroke-width="12"/>
+<!-- central path -->
+<path d="M475 1920Q470 1730 500 1510Q525 1320 540 1060Q555 1320 580 1510Q610 1730 605 1920Z" fill="url(#path)" opacity=".96"/>
+<path d="M510 1920Q515 1730 530 1540M570 1920Q565 1730 550 1540" fill="none" stroke="#fff4db" stroke-opacity=".45" stroke-width="7"/>
+<!-- flowering trees -->
+<g filter="url(#glow)">
+ <g fill="#f9d7f4"><circle cx="125" cy="1320" r="34"/><circle cx="170" cy="1290" r="28"/><circle cx="215" cy="1330" r="36"/><circle cx="168" cy="1360" r="30"/></g>
+ <g fill="#f8d9ff"><circle cx="865" cy="1310" r="35"/><circle cx="915" cy="1280" r="29"/><circle cx="965" cy="1325" r="38"/><circle cx="915" cy="1360" r="31"/></g>
+</g>
+<!-- foreground foliage -->
+<g fill="#0d4439">
+ <path d="M0 1800q130-220 260-40q-120 30-260 140zM1080 1800q-130-220-260-40q120 30 260 140z"/>
+</g>
+<!-- floating light motes -->
+<g fill="#fff4a8" opacity=".9">
+ <circle cx="160" cy="620" r="6"/><circle cx="900" cy="700" r="7"/><circle cx="270" cy="1010" r="5"/><circle cx="820" cy="980" r="6"/><circle cx="360" cy="700" r="4"/><circle cx="720" cy="650" r="5"/>
+</g>
+</svg>

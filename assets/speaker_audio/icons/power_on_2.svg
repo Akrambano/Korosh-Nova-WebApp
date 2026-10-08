@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff79c8"/><stop offset="1" stop-color="#9d7cff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<circle cx="54" cy="54" r="43" fill="#07122c" stroke="url(#g)" stroke-width="3" filter="url(#glow)"/><circle cx="54" cy="54" r="34" fill="none" stroke="#9d7cff" opacity=".45"/>
+<polyline points="18.0,32.1 26.0,34.7 34.0,43.9 42.0,55.1 50.0,62.8 58.0,63.1 66.0,56.0 74.0,44.9 82.0,35.3" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<text x="54" y="82" text-anchor="middle" fill="white" font-size="10" font-family="Tahoma,Arial" font-weight="700">ON 2</text></svg>

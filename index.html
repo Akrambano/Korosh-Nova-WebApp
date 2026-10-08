@@ -1,27 +1,7 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>کوروش نوا</title>
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" type="image/png" href="assets/branding/korosh_nova_app_icon.png"><link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="appSplash" class="app-splash" aria-label="صفحه آغاز کوروش نوا">
-  <div class="splash-glow"></div>
-  <img class="splash-logo" src="assets/branding/korosh_nova_app_icon.png" alt="کوروش نوا">
-  <div class="splash-brand">کوروش نوا</div>
-  <div class="splash-brand-en">KOROSH NOVA</div>
-  <div class="splash-family">خانه‌ی دیجیتال خانوادگی زهره، زینب، حسین</div>
-  <div class="splash-message">جایی برای صداها، تصویرها، خاطره‌ها و لحظه‌هایی که قرار نیست فراموش شوند.</div>
-  <div class="splash-motto">یک صدا&nbsp;&nbsp;·&nbsp;&nbsp;یک زندگی</div>
-</div>
-<div class="app-shell">
-  <div class="app-frame">
-    <header class="header"><div class="motto">یک صدا<br>یک زندگی</div><div class="brand">کوروش نوا</div></header>
-    <main id="screen"></main>
-    <nav id="dock" class="dock"></nav>
-  </div>
-</div>
-<script src="app.js"></script>
-</body></html>
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#050817"><link rel="manifest" href="manifest.webmanifest"><title>کوروش نوا — Web App</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="app"><main id="screen"></main><nav id="dock" class="dock"></nav></div>
+<input id="audioPicker" class="hidden" type="file" accept="audio/*" multiple><input id="imagePicker" class="hidden" type="file" accept="image/*"><input id="backgroundPicker" class="hidden" type="file" accept="image/*">
+<audio id="audio" preload="metadata"></audio>
+<div id="toast" class="toast"></div>
+<div id="modal" class="modal" aria-hidden="true"><div class="modal-card"><button class="modal-close" data-action="close-modal">×</button><div id="modal-content"></div></div></div>
+<script src="app.js"></script></body></html>
